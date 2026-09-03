@@ -1,0 +1,15 @@
+{
+  "schema": "hypernatt.audit.public.manifest.v1",
+  "repo": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public",
+  "generated_utc": "2026-09-03T11:00:00Z",
+  "files": [
+    {"path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md", "sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"},
+    {"path": "notes/420_HOLDING_TIME_CAP.md", "sha256": "acf24136f15d47d1f10bbe9bcb93ff02a5ed4ddf883bb44cae4d0b4377d9f583"},
+    {"path": "notes/645_TRAIL_ADV_TRAIN.md", "sha256": "025a60d51e37748e1f4c8d8420898df77f977b3c28d0365fbc5ba7320bdd5da7"},
+    {"path": "notes/649_TRAIL_ADV_TRAIN_CONFIRM.md", "sha256": "24cd5b417bb729f184b55bbf809e0ad498d4ddfa7ea5f33c2bd9c1f3c34a22f1"},
+    {"path": "notes/653_CAMERA_INTEGRITY.md", "sha256": "aec9515c3412d098275728725f62ef0bb5de2dda6a23db49025539cf2c4b017b"},
+    {"path": "notes/656_FORWARD_ZERO_FILLS.md", "sha256": "e42a95435e282fcd716555a3a2d78523a2b6ee2ea8a5126106ab6965fe2a0015"},
+    {"path": "notes/657_PUBLIC_PROCESS_AUDIT.md", "sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"},
+    {"path": "notes/CAMERAS_INTEGRITY.jsonl", "sha256": "e25a8fb3fa1d133e806b7c3c2990706d112e63afaecddc1fe512ca45f38786bc"}
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "schema": "hypernatt.audit.ledger.v1",
+  "generated_utc": "2026-09-03T11:00:00Z",
+  "forward_started_utc": "2026-09-03T00:00:00Z",
+  "public_repo": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public",
+  "public_blob_base": "https://github.com/DIALLOUBE-RESEARCH/hypernatt-audit-public/blob/main/",
+  "vault_address": "0x04e2eb302fe9ff23a9d1f2455084af624737a6d8",
+  "vault_url": "https://app.hyperliquid.xyz/vaults/0x04e2eb302fe9ff23a9d1f2455084af624737a6d8",
+  "entries": [
+    {
+      "id": "s1-hold",
+      "section": "S1",
+      "label": "Default action",
+      "value": "HOLD is first-class. No trade is owed to the market.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "000",
+      "source_path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md",
+      "source_sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"
+    },
+    {
+      "id": "s1-exits",
+      "section": "S1",
+      "label": "Exits",
+      "value": "Lab TRAIN (notes 645 and 649): TRAIL_ADV, 1541 bounded losses, worst -39.37 USD. Candidate rejected. Not a live promise.",
+      "as_of_utc": "2026-09-02",
+      "caption": "Current documented lab book. The 2026-08-22 holding-time cap is archived in Documented failures (note 420).",
+      "source_note": "645",
+      "source_path": "notes/645_TRAIL_ADV_TRAIN.md",
+      "source_sha256": "025a60d51e37748e1f4c8d8420898df77f977b3c28d0365fbc5ba7320bdd5da7"
+    },
+    {
+      "id": "s1-exits-649",
+      "section": "S1",
+      "label": "TRAIN confirmation",
+      "value": "Note 649 confirms the 645 TRAIN coffer: 1541 TRAIL_ADV remain, unit losses bounded.",
+      "as_of_utc": "2026-09-02",
+      "source_note": "649",
+      "source_path": "notes/649_TRAIL_ADV_TRAIN_CONFIRM.md",
+      "source_sha256": "24cd5b417bb729f184b55bbf809e0ad498d4ddfa7ea5f33c2bd9c1f3c34a22f1"
+    },
+    {
+      "id": "s1-verify",
+      "section": "S1",
+      "label": "Proof of Process",
+      "value": "This page does not ask for trust. Every number cites a hashed public note or the Hyperliquid vault.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    },
+    {
+      "id": "s2-wr-honest",
+      "section": "S2",
+      "label": "Documented honest win rate",
+      "value": "67.8%",
+      "as_of_utc": "2026-09-02",
+      "caption": "Lab TRAIN n=4782 (note 645). Not a live promise.",
+      "source_note": "645",
+      "source_path": "notes/645_TRAIL_ADV_TRAIN.md",
+      "source_sha256": "025a60d51e37748e1f4c8d8420898df77f977b3c28d0365fbc5ba7320bdd5da7"
+    },
+    {
+      "id": "s2-forward",
+      "section": "S2",
+      "label": "Forward live book",
+      "value": "n_fills=0",
+      "n_fills": 0,
+      "slip_bp_abs_moy": null,
+      "as_of_utc": "2026-09-03",
+      "caption": "Starts 2026-09-03. Slippage average appears after fills. Day index is computed from this start date, never typed into the page.",
+      "source_note": "656",
+      "source_path": "notes/656_FORWARD_ZERO_FILLS.md",
+      "source_sha256": "e42a95435e282fcd716555a3a2d78523a2b6ee2ea8a5126106ab6965fe2a0015"
+    },
+    {
+      "id": "s3-89-window",
+      "section": "S3",
+      "label": "Rejected marketing window",
+      "value": "88.9% on 90 Hyperliquid close-cycles (402 fills, 2026-09-03 measure) is the OLD vault engine, before the update. We do not sell it as the current engine.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    },
+    {
+      "id": "s3-clock-cap",
+      "section": "S3",
+      "label": "Documented failure — holding-time cap",
+      "value": "97% of five-year lab losses came from a coded holding-time cap that closed positions in loss. Removed 2026-08-22. Historical archive.",
+      "as_of_utc": "2026-08-22",
+      "source_note": "420",
+      "source_path": "notes/420_HOLDING_TIME_CAP.md",
+      "source_sha256": "acf24136f15d47d1f10bbe9bcb93ff02a5ed4ddf883bb44cae4d0b4377d9f583"
+    },
+    {
+      "id": "s3-100-detector",
+      "section": "S3",
+      "label": "100% win rate",
+      "value": "A 100% window is a failure detector, not a target to defend by filtering entries.",
+      "as_of_utc": "2026-08-22",
+      "source_note": "000",
+      "source_path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md",
+      "source_sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"
+    },
+    {
+      "id": "s4-cameras",
+      "section": "S4",
+      "label": "Camera integrity chain (genesis)",
+      "value": "3 hashed snapshots (journal, observations, vault clock) committed 2026-09-03T00:50:00Z",
+      "as_of_utc": "2026-09-03",
+      "source_note": "653",
+      "source_path": "notes/CAMERAS_INTEGRITY.jsonl",
+      "source_sha256": "e25a8fb3fa1d133e806b7c3c2990706d112e63afaecddc1fe512ca45f38786bc"
+    },
+    {
+      "id": "s5-vault",
+      "section": "S5",
+      "label": "Vault on-chain",
+      "value": "0x04e2eb302fe9ff23a9d1f2455084af624737a6d8",
+      "as_of_utc": "2026-09-03",
+      "caption": "Hyperliquid vault. Fills and slippage join this section after the first 30 live fills.",
+      "source_note": "653",
+      "source_path": "notes/653_CAMERA_INTEGRITY.md",
+      "source_sha256": "aec9515c3412d098275728725f62ef0bb5de2dda6a23db49025539cf2c4b017b"
+    },
+    {
+      "id": "s6-research",
+      "section": "S6",
+      "label": "Ongoing research",
+      "value": "Append-only notes. This page updates when the ledger advances — never by editing the layout.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "000",
+      "source_path": "notes/000_HOLD_AND_FAILURE_DETECTOR.md",
+      "source_sha256": "4fbcbfceaa142a5afa400a03939bfac11f97cc0591a03483821068dee0f5476f"
+    },
+    {
+      "id": "s7-terminal",
+      "section": "S7",
+      "label": "Terminal agents",
+      "value": "Phase 2. Not on this page yet.",
+      "as_of_utc": "2026-09-03",
+      "source_note": "657",
+      "source_path": "notes/657_PUBLIC_PROCESS_AUDIT.md",
+      "source_sha256": "817c6e17a9703916a743fa9669e6c3b0f8f2254478fcec1744bb02e90aab129c"
+    }
+  ]
+}
