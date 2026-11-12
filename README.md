@@ -1,3 +1,5 @@
+> **Moved.** This repository is no longer updated. The maintained repository is https://github.com/hypernatt/hypernatt-audit-public
+
 # HyperNatt — public audit notes
 
 Proof of Process. Hashed public extracts cited by
